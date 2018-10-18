@@ -9,4 +9,9 @@ class Shoe
   attr_accessor :material 
   attr_accessor :condition 
   
+  def cobble(Shoe) 
+    puts "The shoe has been repaired!"
+    Shoe.condition = "new"
+  end 
+  
 end 
